@@ -13,7 +13,7 @@ $ cd yolov9-detector
 
 Create a folder called "models" with the following command: <br />
 ```bash
-$ mkdir models <br />**
+$ mkdir models
 ```
 
 Inside the "models" folder, you can add your pretrained models. Alternatively, you can use the default models available at <a 
