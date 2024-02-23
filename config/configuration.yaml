@@ -1,0 +1,27 @@
+# Configuration file for YOLO-V9 Detector
+
+# Path to the input video file
+video_path: '<path_to_video_file>'
+
+# Frame rate for processing video frames
+frame_rate: 30
+
+# Model parameters for YOLO Detector
+model_parameters:
+  # Path to the model file
+  model_path: '/models/dnn_2/yolov9-e.pt'
+
+  # Path to the model labels
+  label_path: '/models/dnn_2/label.txt'
+
+  # Size of input images for the model
+  image_size: 640
+
+  # Confidence threshold for YOLO detection (between 0 and 1)
+  conf: 0.20
+
+  # Intersection over Union (IoU) threshold for YOLO detection (between 0 and 1)
+  iou: 0.30
+
+  # Maximum number of detections to keep
+  max_detection: 1000

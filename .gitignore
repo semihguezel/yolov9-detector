@@ -1,0 +1,8 @@
+# Ignore models
+models/*
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
